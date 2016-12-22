@@ -146,6 +146,12 @@ img {
   -moz-box-shadow: 0 0 5px #ebebeb;
   -o-box-shadow: 0 0 5px #ebebeb;
   -ms-box-shadow: 0 0 5px #ebebeb;
+
+  transition: -webkit-transform 0.4s ease;
+}
+
+img:active {
+  -webkit-transform: scale(2);
 }
 
 p img {
@@ -368,34 +374,7 @@ Full-Width Styles
   background: #212121;
 }
 
-*{
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
-.item {
-  position: relative;
-
-  overflow: hidden;
-  width:400;
-}
-
-.item img {
-  max-width: 100%;
-
-  -moz-transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-}
-
-.item:hover img {
-  -moz-transform: scale(2);
-  -webkit-transform: scale(2);
-  transform: scale(2);
-}
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
