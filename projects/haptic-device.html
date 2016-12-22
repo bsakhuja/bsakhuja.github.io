@@ -36,19 +36,7 @@
 
 
 <h2>flow chart</h2>
-  <img id="flowChart" src="http://bsakhuja.github.io/images/haptic-device/flowchart.jpg" alt="Flow Chart" width="400" height="300">
-
-  <div id="flowChartModal" class="modal">
-
-  <span class="close" onclick="document.getElementById('flowChartModal').style.display='none'">&times;
-  </span>
-
-  <!--The image itself-->
-  <img class="modal-content" id="flowChartImage">
-
-  <!--The image text-->
-  <div id="caption"> </div>
-</div>
+  <p><a href="http://bsakhuja.github.io/images/haptic-device/flowchart.jpg"><img src="http://bsakhuja.github.io/images/haptic-device/flowchart.jpg" alt="Flow Chart" width="400" height="300"></a></p>
 
 
 <h2>technical description of operation</h2>
@@ -74,31 +62,6 @@ For objects in the range of 10”-5”, the motors are on for 100ms and off for 
         <p><small>Copyright Brian Sakhuja 2016</small></p>
       </footer>
     </div>
-
-    <script>
-        // Get the modal
-        var modal = document.getElementById('flowChartModal');
-
-        // Get the image and insert it inside the modal (use alt text as caption)
-        var img = document.getElementById('flowChart');
-        var modalImg = document.getElementById('flowChartImage');
-        var captionText = document.getElementById('caption');
-        img.onclick = function(){
-        modal.style.display = "block";
-        modalImg.src = this.src;
-        captionText.innerHTML = this.alt;
-        }
-
-        // Get span element that closes the modal
-        var span = document.getElementsByClassName("close")[0];
-
-        // When user clicks on span (x), close the modal
-        span.onclick = function() {
-        modal.style.display = "none";
-        }
-
-      
-    </script>
     <script src="javascripts/scale.fix.js"></script>
     
   </body>
