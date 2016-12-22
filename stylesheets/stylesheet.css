@@ -136,7 +136,7 @@ strong {
 img {
   position: relative;
   margin: 0 auto;
-  max-width: 739px;
+  max-width: 100%;
   padding: 5px;
   margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
@@ -378,7 +378,7 @@ Full-Width Styles
   height: 100%;
 }
 
-.image p img {
+.image img {
   -webkit-transition: all 1s ease; /* Safari and Chrome */
   -moz-transition: all 1s ease; /* Firefox */
   -o-transition: all 1s ease; /* IE 9 */
@@ -386,7 +386,7 @@ Full-Width Styles
   transition: all 1s ease;
 }
 
-.image:hover p img {
+.image:hover img {
   -webkit-transform:scale(1.25); /* Safari and Chrome */
   -moz-transform:scale(1.25); /* Firefox */
   -ms-transform:scale(1.25); /* IE 9 */
