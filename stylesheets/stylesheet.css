@@ -133,7 +133,7 @@ strong {
   font-weight: bold;
 }
 
-/*img {
+img {
   position: relative;
   margin: 0 auto;
   max-width: 100%;
@@ -146,21 +146,15 @@ strong {
   -moz-box-shadow: 0 0 5px #ebebeb;
   -o-box-shadow: 0 0 5px #ebebeb;
   -ms-box-shadow: 0 0 5px #ebebeb;
-}*/
+}
 
-/*p img {
+p img {
   display: inline;
   margin: 0;
   padding: 0;
   vertical-align: middle;
   text-align: center;
   border: none;
-}
-*/
-
-img {
-    max-width: 100%;
-    display: block;
 }
 
 pre, code {
@@ -379,7 +373,7 @@ Full-Width Styles
     top: 50%;
     left: 50%;
     
-    width: 400px;
+    width: 4000px;
     height: 300px;
     
     -webkit-transform: translate(-50%,-50%); /* Safari and Chrome */
