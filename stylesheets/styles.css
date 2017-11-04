@@ -126,11 +126,6 @@ a:hover small {
   color:#777;
 }
 
-p > a:hover{
-    color: #d9d9d9;
-    text-decoration:  underline;
-}
-
 
 .wrapper {
   width:860px;
