@@ -80,8 +80,8 @@ ul.social-icons {
 }
 
 .social-icons li {
-    vertical-align: middle;
-    display: list-item;
+    vertical-align: top;
+    display: inline;
     height: 100px;
 }
 .social-icons a {
