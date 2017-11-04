@@ -67,6 +67,13 @@ body {
   font-weight:400;
 }
 
+._12 {
+    font-size: 1.2em;
+}
+._14 {
+    font-size: 1.4em;
+}
+
 h1, h2, h3, h5, h6 {
   color:#222;
   margin:0 0 20px;
@@ -119,11 +126,22 @@ a:hover small {
   color:#777;
 }
 
+p > a:hover{
+    color: #d9d9d9;
+    text-decoration:  underline;
+}
+
 
 .wrapper {
   width:860px;
   margin:0 auto;
 }
+
+ul {
+    padding:0;
+    list-style: none;
+}
+
 ul.social-icons {
     margin-top: 10px;
 }
