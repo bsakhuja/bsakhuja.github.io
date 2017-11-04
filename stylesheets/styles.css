@@ -76,6 +76,7 @@ ul {
 
 ul.social-icons {
     margin-top: 10px;
+    list-style: none;
 }
 
 .social-icons li {
@@ -84,7 +85,7 @@ ul.social-icons {
     height: 100px;
 }
 .social-icons a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 .fa-github {
@@ -94,7 +95,7 @@ ul.social-icons {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #ffffff;
+    background-color: #4078c0;
 }
 .fa-github:hover {
     background-color: #4078c0;
@@ -107,7 +108,7 @@ ul.social-icons {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #ffffff;
+    background-color: #0077B5;
 }
 .fa-linkedin:hover {
     background-color: #0077B5;
@@ -120,14 +121,14 @@ ul.social-icons {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #ffffff;
+    background-color: #86888A;
 }
 .fa-file-text:hover {
     background-color: #86888A;
 }
 
 .social-icon {
-    color: #fff;
+    color: #000;
 }
 
 blockquote {
