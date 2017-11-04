@@ -76,16 +76,15 @@ ul {
 
 ul.social-icons {
     margin-top: 10px;
-    list-style: none;
 }
 
 .social-icons li {
-    vertical-align: top;
+    vertical-align: middle;
     display: list-item;
     height: 100px;
 }
 .social-icons a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 .fa-github {
@@ -128,7 +127,7 @@ ul.social-icons {
 }
 
 .social-icon {
-    color: #000;
+    color: #fff;
 }
 
 blockquote {
