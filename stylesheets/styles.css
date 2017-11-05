@@ -133,6 +133,10 @@ ul.social-icons {
   color: #fff;
 }
 
+.circular--square {
+  border-radius: 50%;
+}
+
 blockquote {
   border-left:1px solid #e5e5e5;
   margin:0;
