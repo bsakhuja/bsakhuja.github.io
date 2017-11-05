@@ -129,6 +129,33 @@ ul.social-icons {
   background-color: #4c4d4f;
 }
 
+.fa-envelope-o {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #c71610;
+}
+.fa-envelope-o:hover {
+  background-color: #8e1713;
+}
+
+.fa-twitter {
+  padding:10px 14px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #00aced;
+}
+.fa-twitter:hover {
+  background-color: #0084b4;
+}
+
+
 .social-icon {
   color: #fff;
 }
