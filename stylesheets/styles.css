@@ -71,7 +71,7 @@ a:hover small {
 }
 
 ul {
-  padding:0;
+  padding: 5px;
   list-style: none;
 }
 
@@ -238,11 +238,6 @@ footer {
     display:inline;
   }
 
-  header ul {
-    position:absolute;
-    right:50px;
-    top:52px;
-  }
 }
 
 @media print, screen and (max-width: 720px) {
