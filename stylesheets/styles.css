@@ -82,8 +82,6 @@ ul.social-icons {
 .social-icons li {
   vertical-align: top;
   display: inline;
-  margin-left: 5px;
-  margin-right: 5px;
   height: 100px;
 }
 .social-icons a {
