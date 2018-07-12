@@ -1,0 +1,40 @@
+body 
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: darkslategrey;
+}
+
+h1
+{
+font-size: 2em;
+}
+
+h2
+{
+font-size: 1.3em;
+font-weight: bold;
+}
+
+p
+{
+  font-size: 0.9em;
+  
+}
+
+
+a:link
+{
+  color: firebrick;
+  text-decoration: none;
+}
+
+a:visited
+{
+  color: firebrick;
+}
+
+a:hover
+{
+  color: darkslategrey;
+}
